@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#wrapper{
+    height: 100%;
+    width: 100%;
+    background-color:antiquewhite;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 20rem;
+    width: 33rem;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+}
+img{
+    height: 20rem;
+    border-radius: 15px 0px 0px 15px;
+}
+.left{
+    padding: 20px;
+}
+#cm{
+    /* padding: 15px; */
+    font-family: 'Lucida Sans';
+    color: rgb(103, 102, 102);
+    letter-spacing: 4px;
+    font-size: small;
+    font-weight: 800;
+}
+#wcf{
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* padding-right: 45px; */
+}
+#money{
+    display: flex;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: baseline;
+}
+#money #price{
+    font-size: 30px;
+    color: green;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+del{
+    position: relative;
+    top: 10px;
+}
+#butt{
+    color: #fff;
+    height: 35px;
+    width: 240px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+#butt img{
+    height: 15px;
+    padding-right: 10px;
+}
